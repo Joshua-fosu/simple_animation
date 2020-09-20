@@ -46,6 +46,7 @@ h1 {
 }
 
 img.top {
+  display: inline-block;
   position: absolute;
   animation-duration: 5s;
   animation-name: cloudmoves;
