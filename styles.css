@@ -1,7 +1,6 @@
 body{
   font-family: cursive;
-  width: 100%;
-  max-width: 100%;
+  width: 1370px;
   height: 663px;
   margin: 0;
 }
@@ -39,8 +38,8 @@ h1 {
 
 @keyframes cloudmoves {
   0%    {left: 0;}
-  50%   {left: 47%;}
-  100%  {left: 89%;}
+  50%   {left: 45%;}
+  100%  {left: 88%;}
 }
 
 img.top {
