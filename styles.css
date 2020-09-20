@@ -41,8 +41,7 @@ h1 {
 
 @keyframes cloudmoves {
   0%    {left: 0;}
-  50%   {left: 45%;}
-  100%  {left: 88%;}
+  100%  {right: 0;}
 }
 
 img.top {
