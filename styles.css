@@ -7,6 +7,9 @@
 body{
   font-family: cursive;
   margin: 0;
+  width: 1370px;
+  min-width: 1370px;
+  max-width: 1370px;
   background-color: #1d2d50;
   animation-name: mymoves;
   animation-duration: 5s;
