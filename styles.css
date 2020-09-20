@@ -1,0 +1,64 @@
+body{
+  font-family: cursive;
+  width: 100%;
+  max-width: 100%;
+  height: 663px;
+  margin: 0;
+}
+
+@keyframes mymoves {
+  0%    {background-color: #1d2d50;}
+  50%   {background-color: #faf3dd;}
+  100%  {background-color: #1d2d50;}
+}
+
+.page {
+  height: inherit;
+  width: inherit;
+  background-color: #1d2d50;
+  animation-name: mymoves;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+h1 {
+  margin: 0;
+}
+
+.crossfade {
+  position: relative;
+}
+
+.top_container {
+  width: 30%;
+  margin: 0 auto 0 auto;
+  padding: 50px;
+  text-align: center;
+}
+
+@keyframes cloudmoves {
+  0%    {left: 0;}
+  50%   {left: 47%;}
+  100%  {left: 89%;}
+}
+
+img.top {
+  position: relative;
+  animation-name: cloudmoves;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.no_special {
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mountain {
+  width: 98%;
+  margin-right: auto;
+  margin-left: auto;
+}
