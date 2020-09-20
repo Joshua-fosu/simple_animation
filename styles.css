@@ -42,11 +42,11 @@ h1 {
 @keyframes cloudmoves {
   0%    {left: 0;}
   50%   {left: 45%;}
-  100%  {left: 86.7%;}
+  100%  {right: 0;}
 }
 
 img.top {
-  position: relative;
+  position: absolute;
   animation-duration: 5s;
   animation-name: cloudmoves;
   animation-iteration-count: infinite;
