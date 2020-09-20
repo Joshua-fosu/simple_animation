@@ -1,7 +1,8 @@
 body{
   font-family: cursive;
   width: 1370px;
-  height: 663px;
+  height: 100vh;
+  min-height: 100vh;
   margin: 0;
 }
 
